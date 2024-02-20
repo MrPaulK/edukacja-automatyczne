@@ -1,0 +1,15 @@
+class HomeJs {
+    get womenTab() {
+        return cy.get(`a[title="Women"]`)
+    }
+
+    clickOnWomenTab() {
+       // cy.get(`a[title="Women"]`).click();
+       this.womenTab.click();
+
+    }
+
+
+}
+
+export default new HomeJs();

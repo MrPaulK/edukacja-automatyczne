@@ -1,0 +1,20 @@
+{
+  "name": "cypresss-projekt",
+  "version": "1.0.0",
+  "description": "automatyzacja testow w cypress",
+  "main": "index.js",
+  "scripts": {
+    "checkbox": "cypress run --spec cypress/e2e/checkbox.cy.js"
+  },
+  "keywords": [
+    "automatyzacja",
+    "cypress",
+    "testy"
+  ],
+  "author": "Paul",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "cypress-dark": "^1.8.3"
+  }
+}
